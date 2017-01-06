@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "update": "npm install && jspm install",
-    "setup": "npm install -g jspm && jspm config registries.github.auth dmRhYi1sbmQ6WVR5QXhQbTQzV2NIdA== && npm run update",
+    "setup": "npm install -g jspm && npm run update",
     "clean": "gulp clean",
     "prepare": "gulp prepare",
     "test": "gulp test",
